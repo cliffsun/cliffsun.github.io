@@ -14,7 +14,7 @@ footer_text: >
   &copy Copyright 2026 Cliff Sun.
 keywords: quantum-information, website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/cliff_sun.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/cliff_sun.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://cliffsun.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
