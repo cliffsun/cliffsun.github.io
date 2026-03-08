@@ -2,16 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Cliff's Website # the website title (if blank, full name will be used instead)
+title: Cliff Sun # the website title (if blank, full name will be used instead)
 first_name: Cliff
 middle_name: 
 last_name: Sun
 contact_note: >
-  reach me at cliffxs2 [at] illinois [dot] edu
+  reach me at cliffxs2@illinois.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I study Physics, Math, and Computer Science at the University of Illinois Urbana-Champaign.
 footer_text: >
-  &copy Copyright 2026 Cliff Sun.
 keywords: quantum-information, website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: cliff_sun.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -197,7 +196,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - _pages/about_me.md
   - purgecss.config.js
   - README.md
   - readme_preview/
