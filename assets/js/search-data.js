@@ -440,16 +440,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-multiple-nanowire-superconducting-quantum-interference-devices-critical-currents-symmetries-and-vorticity-stability-regions-published-in-iopscience-nano-express",
+          title: '“Multiple-nanowire superconducting quantum interference devices: critical currents, symmetries, and vorticity stability regions” published...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-perfect-superconducting-diode-and-supercurrent-range-controller-published-in-elsevier-physics-letters-a",
+          title: '“Perfect superconducting diode and supercurrent range controller” published in Elsevier Physics Letters A....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-awarded-best-undergraduate-research-poster-at-the-chicago-quantum-exchange",
+          title: 'Awarded “Best Undergraduate Research Poster” at the Chicago Quantum Exchange',
+          description: "",
+          section: "News",},{id: "news-headed-to-aps-march-to-present-about-superconducting-quantum-interference-in-nanowire-networks-for-digital-and-quantum-logic",
+          title: 'Headed to APS March to present about “Superconducting Quantum Interference in Nanowire Networks...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
