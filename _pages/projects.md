@@ -2,24 +2,37 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+# description: Overview of my research and related cool projects I worked on  
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Quantum Computing, Superconductivity, NASA, Other]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
+  <p>
+    I love trying out different problem flavors; therefore, I work on a lot of different projects. This page aims to be a general hub of all my work (and may be scattered...) Some project descriptions may be complete, and some may not. 
+  </p>
+
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  <!-- Display categorized research areas -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">
+      {% if category == "work" %}
+        Research Area: {{ category | capitalize }}
+      {% elsif category == "fun" %}
+        Exploratory Projects: {{ category | capitalize }}
+      {% else %}
+        {{ category | capitalize }}
+      {% endif %}
+    </h2>
   </a>
+
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
+
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -39,14 +52,11 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
+<!-- Display research/projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
-  <!-- Generate cards for each project -->
-
 {% if page.horizontal %}
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
@@ -54,12 +64,12 @@ horizontal: false
     {% endfor %}
     </div>
   </div>
-  {% else %}
+{% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
+{% endif %}
 {% endif %}
 </div>

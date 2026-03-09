@@ -277,8 +277,8 @@ display_categories: ["Recollection"] # these categories will be displayed on the
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Sun]
+  first_name: [Cliff, C.]
 
   style: apa
   locale: en
