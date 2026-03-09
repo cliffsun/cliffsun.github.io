@@ -25,10 +25,17 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-research",
+          title: "research",
+          description: "Overview of research interests, directions, and selected work tailored for PhD applications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -59,7 +66,10 @@ ninja.data = [{
             window.location.href = "/blog/2025/hulc/";
           
         },
-      },{id: "news-multiple-nanowire-superconducting-quantum-interference-devices-critical-currents-symmetries-and-vorticity-stability-regions-published-in-iopscience-nano-express",
+      },{id: "news-started-quantum-machine-learning-internship-at-the-johns-hopkins-applied-physics-lab",
+          title: 'Started quantum machine learning internship at the Johns Hopkins Applied Physics Lab.',
+          description: "",
+          section: "News",},{id: "news-multiple-nanowire-superconducting-quantum-interference-devices-critical-currents-symmetries-and-vorticity-stability-regions-published-in-iopscience-nano-express",
           title: '“Multiple-nanowire superconducting quantum interference devices: critical currents, symmetries, and vorticity stability regions” published...',
           description: "",
           section: "News",},{id: "news-perfect-superconducting-diode-and-supercurrent-range-controller-published-in-elsevier-physics-letters-a",
@@ -71,51 +81,56 @@ ninja.data = [{
           section: "News",},{id: "news-headed-to-aps-march-to-present-about-superconducting-quantum-interference-in-nanowire-networks-for-digital-and-quantum-logic",
           title: 'Headed to APS March to present about “Superconducting Quantum Interference in Nanowire Networks...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/cavity_setup/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/disorder_symmetry/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/generative_qml/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/inverse_problem/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/modeling_jjs/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/mw_squids/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/psd/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/quantum_annealing/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/statfit/";
+            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
+          title: 'Quantum interference in superconducting nanowire devices',
+          description: "A brief introduction into quantum interference devices",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/transformers/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
