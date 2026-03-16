@@ -9,37 +9,23 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blogs",
-          title: "blogs",
+  },{id: "nav-physics-stuff",
+          title: "physics stuff",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-other-stuff",
+          title: "other stuff",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "My publications in reversed chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-research",
-          title: "research",
-          description: "Overview of research interests, directions, and selected work tailored for PhD applications.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/research/";
-          },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -81,56 +67,71 @@ ninja.data = [{
           section: "News",},{id: "news-headed-to-aps-march-to-present-about-superconducting-quantum-interference-in-nanowire-networks-for-digital-and-quantum-logic",
           title: 'Headed to APS March to present about “Superconducting Quantum Interference in Nanowire Networks...',
           description: "",
-          section: "News",},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
+          section: "News",},{id: "projects-superconducting-qubit-measurement-set-up",
+          title: 'Superconducting Qubit Measurement Set-up',
+          description: "Built qubit measurement set-up using commerical microwave circuitry and LabVIEW",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cavity_setup/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/disorder_symmetry/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
+            },},{id: "projects-generative-tensor-networks-on-holographic-quantum-tensor-networks",
+          title: 'Generative Tensor Networks on Holographic Quantum Tensor Networks',
+          description: "Implemented Born Machine with Pytorch Backend on Quantum Tensor Networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/generative_qml/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
+            },},{id: "projects-inverse-superconducting-design-tool",
+          title: 'Inverse Superconducting Design Tool',
+          description: "Developed a tool that estimates device geometry from experimental data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/inverse_problem/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
+            },},{id: "projects-josephson-junction-arrays",
+          title: 'Josephson Junction Arrays',
+          description: "Extensively studied dynamics of disordered Josephson Junction Arrays",
           section: "Projects",handler: () => {
               window.location.href = "/projects/modeling_jjs/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/mw_squids/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/psd/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
+            },},{id: "projects-quantum-annealing-for-radar-optimization",
+          title: 'Quantum Annealing for radar optimization',
+          description: "Using quantum annealing to solve a time-dependent high dimensional QUBO problem.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quantum_annealing/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/statfit/";
-            },},{id: "projects-quantum-interference-in-superconducting-nanowire-devices",
-          title: 'Quantum interference in superconducting nanowire devices',
-          description: "A brief introduction into quantum interference devices",
+            },},{id: "projects-transformers-for-quantum-compilation",
+          title: 'Transformers for quantum compilation',
+          description: "Using transformers to learn quantum compilation schemes.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/transformers/";
+            },},{id: "talks-analyzing-disorder-and-symmetries-in-random-josephson-junction-arrays",
+          title: 'Analyzing Disorder and Symmetries in random Josephson Junction Arrays',
+          description: "First ever poster presentation",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/disorder_symmetries/";
+            },},{id: "talks-efficient-cryogenic-low-invasive-propellant-supply-exchange",
+          title: 'Efficient Cryogenic Low Invasive Propellant Supply Exchange',
+          description: "NASA presentation of my team&#39;s work on cryogenic propellant transfer. Won &quot;Best Technical Presentation&quot; and was integrated into NASA archtecture.",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/eclipse/";
+            },},{id: "talks-model-fitting-algorithm-for-disordered-josephson-junction-arrays",
+          title: 'Model Fitting Algorithm for disordered Josephson Junction Arrays',
+          description: "Inverse design tool for many Josepshon Junction Arrays.",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/model_fitting/";
+            },},{id: "talks-holographic-quantum-tensor-networks-and-quantum-annealing",
+          title: 'Holographic Quantum Tensor Networks and Quantum Annealing',
+          description: "Intern project presentation. 4/400 interns selected to present. URL not available.",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/apl/";
+            },},{id: "talks-multiple-nanowire-superconducting-quantum-interference-devices-symmetries-critical-currents-and-diode-effect",
+          title: 'Multiple Nanowire Superconducting Quantum Interference Devices: Symmetries, Critical Currents, and Diode Effect',
+          description: "Awarded &quot;Best undergraduate presentation&quot; out of 77 participating",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/cqe/";
+            },},{id: "talks-using-ads-cft-for-better-quantum-computing",
+          title: 'Using AdS/CFT for better Quantum Computing',
+          description: "A fun introduction into Holographic Quantum Computing. NOT RIGOROUS",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/adscft/";
+            },},{id: "talks-superconducting-quantum-interference-in-nanowire-networks-for-digital-and-quantum-logic",
+          title: 'Superconducting Quantum Interference in Nanowire Networks for Digital and Quantum Logic',
+          description: "Culmination of undergraduate research. Note: title was changed prior to presentation; not reflected in official website",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/aps/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
