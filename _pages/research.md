@@ -1,40 +1,75 @@
 ---
 layout: page
-title: research
+title: physics stuff
 permalink: /research/
 nav: true
-nav_order: 3
-description: Overview of research interests, directions, and selected work tailored for PhD applications.
+nav_order: 1
+description:  
 ---
 
-<!-- _pages/research.md -->
+This page is intended to be a general hub of my research, including publications, talks, and any related projects. I will faithfully try to keep this page updated. 
 
-## TL;DR
 
-I work at the intersection of quantum hardware, superconductivity, and machine learning for quantum systems. My research focuses on (1) designing and understanding one-dimensional superconducting devices with applications in classical and quantum logic, (2) developing algorithms and compilation techniques for near-term quantum processors, and (3) applying machine learning to optimize quantum control and compilation.
+<h2><b>Publications</b></h2>
 
-## Research directions
+<div class="publications">
 
-- **Quantum algorithms & compilation:** Building algorithmic tools and compilation schemes that reduce error and resource requirements for near-term quantum processors.
+{% bibliography %}
 
-- **One-dimensional superconductivity & devices:** Experimental and theoretical work on 1D superconducting systems with implications for classical logic, quantum hardware, and novel device concepts.
+</div>
 
-- **Machine learning for quantum systems:** Using classical ML to accelerate calibration, control, and compilation for quantum hardware.
+<h2 style="margin-bottom: 2rem;"><b>Talks</b></h2>
 
-## Selected projects & representative papers
+{% assign sorted_talks = site.talks | sort: "date" | reverse %}
 
-- Overview and full list: [Publications](/publications/) and [Projects](/projects/).
-- (Representative) Paper — short summary: add 2–3 sentence plain-English TL;DR and your contribution.
+<ul class="list-unstyled">
+{% for talk in sorted_talks %}
+<li class="mb-4 pb-3">
+<h5>{{ talk.title }}</h5>
+<p><i>{{ talk.description }}</i></p>
+<p><strong>{{ talk.venue }}</strong> - {{ talk.date | date: "%B %Y" }}</p>
+{% if talk.poster %}
+<a href="{{ talk.poster | relative_url }}" style="margin-right: 10px;">poster</a>
+{% endif %}
+{% if talk.slides %}
+<a href="{{ talk.slides | relative_url }}" style="margin-right: 10px;">slides</a>
+{% endif %}
+<hr class="mt-3">
+</li>
+{% endfor %}
+</ul>
 
-## Materials & reproducibility
+<h2 style="margin-bottom: 2rem;"><b>Projects</b></h2>
 
-- Code and data: link important repositories and runnable examples for major projects.
-- Talks & slides: list invited talks and conference presentations with links.
-- One-page research summary: include a downloadable PDF for committees (e.g., `/assets/pdf/research_onepager.pdf`).
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
-## Next steps (what I will help with)
+<ul class="list-unstyled">
+{% for project in sorted_projects %}
+<li class="mb-4 pb-3">
+  <div class="d-flex align-items-start">
 
-- Draft 1-page research summary and populate 4–6 paper TL;DRs from your bibliography.
-- Add links to code, slides, and selected project pages.
+    {% if project.img %}
+    <div class="flex-shrink-0" style="margin-right: 2rem;">
+      <img src="{{ project.img | relative_url }}"
+           alt="{{ project.title }}"
+           class="img-fluid"
+           style="width: 180px;">
+    </div>
+    {% endif %}
 
-Please tell me which 3–6 papers or projects you want highlighted and I can draft short TL;DRs for each.
+    <div>
+      <h5>{{ project.title }}</h5>
+      <p><i>{{ project.description }}</i></p>
+
+      <a href="{{ project.url | relative_url }}" style="margin-right: 10px;">project </a>
+      {% if project.poster %}
+      <a href="{{ project.poster }}"> poster </a>
+      {% endif %}
+    </div>
+
+  </div>
+
+  <hr class="mt-3">
+</li>
+{% endfor %}
+</ul>
