@@ -147,7 +147,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Cliff_Sun_CV-3.pdf", "_blank");
+          window.open("/assets/pdf/Cliff_Sun_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -162,6 +162,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=E1iNOm0AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/cliff-sun", "_blank");
         },
       },{
       id: 'light-theme',
