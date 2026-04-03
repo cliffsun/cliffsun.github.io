@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/).
+I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am also a [2026 Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/).
 
 Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I've published [2 first-author papers](/research/) (+ submitted first-author paper) and filed a patent on the applications of one-dimensional superconductivity in classical and quantum logic. My work has bridged superconductors to particle physics, connected diodes to broken space and time symmetries, and solved a 30 year problem in the nanowire community. 
 
