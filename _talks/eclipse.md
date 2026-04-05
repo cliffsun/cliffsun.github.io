@@ -5,5 +5,5 @@ description: "NASA presentation of my team's work on cryogenic propellant transf
 date: 2024-09-10
 venue: "NASA Marshall Space Flight Center"
 slides: "/assets/slides/eclipse.pdf"
-poster: "/assets/slides/eclipse_poster.pdf"
+poster: "/assets/posters/eclipse_poster.pdf"
 ---

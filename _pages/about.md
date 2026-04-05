@@ -27,7 +27,7 @@ latest_posts:
 
 I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am also a [2026 Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/).
 
-Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I've published [2 first-author papers](/research/) (+ submitted first-author paper) and filed a patent on the applications of one-dimensional superconductivity in classical and quantum logic. My work has bridged superconductors to particle physics, connected diodes to broken space and time symmetries, and solved a 30 year problem in the nanowire community. 
+Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I've published [2 first-author papers](/publications/) (+ submitted first-author paper) and filed a patent on the applications of one-dimensional superconductivity in classical and quantum logic. My work has bridged superconductors to particle physics, connected diodes to broken space and time symmetries, and solved a 30 year problem in the nanowire community. 
 
 I also hold a joint research position at the [Johns Hopkins Applied Physics Laboratory](https://www.jhuapl.edu/), where I investigate classical machine learning applications to learn quantum compilation schemes. Previously, I wrote a generative QML algorithm and investigated quantum annealing. 
 
