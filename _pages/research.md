@@ -38,10 +38,12 @@ At Johns Hopkins Applied Physics Lab, I worked on holographic quantum tensor net
   <li>
     {% if talk.poster %}
       <a href="{{ talk.poster | relative_url }}">{{ talk.title }}</a> (poster)
+    {% endif %}
+
     {% if talk.slides %}
       <a href="{{ talk.slides | relative_url }}">{{ talk.title }}</a> (slides)
     {% else %}
-       {{ talk.title }} (slides not available)
+      {{ talk.title }} (slides not available)
     {% endif %}
   </li>
 {% endfor %}
