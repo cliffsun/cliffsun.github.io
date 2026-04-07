@@ -1,9 +1,10 @@
 ---
 layout: default
 permalink: /blog/
-title: other stuff
+title: Other Stuff
 nav: true
 nav_order: 2
+description: Stuff I do on the side. There will not be any order to this section.
 pagination:
   enabled: true
   collection: posts

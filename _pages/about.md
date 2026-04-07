@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: currently doing physics @ <a href='#'>uiuc</a> and <a href='#'>jhu apl</a>
 profile:

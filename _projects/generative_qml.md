@@ -6,6 +6,7 @@ img: assets/img/QML_workflow.png
 importance: 1
 category: Quantum Computing
 related_publications: false
+permalink: /gen_qml/
 ---
 
 This was an intern project at the Johns Hopkins Applied Physics Lab. In this project, I defined and successfully implemented a generative machine learning algorithm on holographic quantum tensor networks. I first wrote a back propagation algorithm on Holographic Tensor Networks based on the probability of generating the "correct" data vector $x$ given a wavefunction is:
