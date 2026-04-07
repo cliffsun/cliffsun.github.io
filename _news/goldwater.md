@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as a [2026 Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/)! Only ~400 scholars selected, making it one of the most prestigious undergraduate awards. 
+Selected as a [2026 Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/)! Only ~400 scholars selected, making it one of the most prestigious undergraduate awards.

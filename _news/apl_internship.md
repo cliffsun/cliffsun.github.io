@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started quantum machine learning internship at the [Johns Hopkins Applied Physics Lab](https://www.jhuapl.edu/). 
+Started quantum machine learning internship at the [Johns Hopkins Applied Physics Lab](https://www.jhuapl.edu/).

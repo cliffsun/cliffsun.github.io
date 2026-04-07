@@ -8,9 +8,9 @@ category: Superconductivity
 related_publications: true
 ---
 
-Traditional superconducting quantum interference devices (SQUIDs) are made up of tunnel Josephson Junctions (JJs) that obey a sinusoidal current-phase relationship of the form $I(\Delta\phi) = I_c \sin(\Delta\phi)$. Here, $\Delta \phi$ is the phase difference across the tunnel Josephson Junction. 
+Traditional superconducting quantum interference devices (SQUIDs) are made up of tunnel Josephson Junctions (JJs) that obey a sinusoidal current-phase relationship of the form $I(\Delta\phi) = I_c \sin(\Delta\phi)$. Here, $\Delta \phi$ is the phase difference across the tunnel Josephson Junction.
 
-But what if we used some other superconductor besides the tunnel JJ? In this case, we would use superconducting nanowires, of which have shown to exhibit metastabiity. In this case, in the low temperature approximation, the current-phase relationship is 
+But what if we used some other superconductor besides the tunnel JJ? In this case, we would use superconducting nanowires, of which have shown to exhibit metastabiity. In this case, in the low temperature approximation, the current-phase relationship is
 
 $$
 \begin{equation}
@@ -28,7 +28,7 @@ $$
 
 Here, if $n\neq 0$, then there are _vortices_ present in the device, which affect the state of the device. I modeled the _critical current_, or the maximum current that the device can support, using Equations 1 and 2. My first first-author paper was on studying the metastable critical current properties of such nanowire SQUIDs {% cite sun-mwsquid-2025 %}. As it turns out, irregardless of whatever combination of vortices I programmed into the device, the nanowire squid always produced what I called "vorticity stability regions" or VSRs.
 
-VSRs are closed superconductivty regions on the magnetic-current plane where superconductivity is strictly supported inside the region, and leaving the region breaks superconductivity (actually not, quantum phase slips happen, but for this paper, we assumed that superconductivity breaks).  
+VSRs are closed superconductivty regions on the magnetic-current plane where superconductivity is strictly supported inside the region, and leaving the region breaks superconductivity (actually not, quantum phase slips happen, but for this paper, we assumed that superconductivity breaks).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -39,4 +39,4 @@ VSRs are closed superconductivty regions on the magnetic-current plane where sup
     Example of a Vorticity Stability Region (VSR)
 </div>
 
-I conducted a thorough analysis of VSR geometries and symmetries. I also discovered a global device symmetry and studied group theory to prove that it was isomorphic to the famous particle physics symmetry of Charge-Parity-Time. In the end, my manuscript was 31 pages and took me nearly 1.5 years to fully complete. What a fun ride into the world of publishing research!  
+I conducted a thorough analysis of VSR geometries and symmetries. I also discovered a global device symmetry and studied group theory to prove that it was isomorphic to the famous particle physics symmetry of Charge-Parity-Time. In the end, my manuscript was 31 pages and took me nearly 1.5 years to fully complete. What a fun ride into the world of publishing research!

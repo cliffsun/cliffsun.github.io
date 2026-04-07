@@ -45,7 +45,7 @@ After some reflection, my biggest lesson is that the key to my success is a comb
 
 This means that if I want to work on something important while keeping myself healthy, I must have both the mental bandwidth and the time bandwidth to do it. I learned this the hard way, since I've been told that I work like "I need that green card." Basically, I would pull 12-hour workdays regardless of whether I had the time or whether I was energetic enough.
 
-Clearly, this led to me burning out so many times, which then forced me to do a complete 180 to regain my livelihood back.  
+Clearly, this led to me burning out so many times, which then forced me to do a complete 180 to regain my livelihood back.
 
 I've also taken on a non-negotiable: I will always get eight hours of sleep every day, so my energy is decently replenished. I'm also more aware of what my energy limit is, and I've developed better intuition for how much energy a certain task will take. I hope these things I've picked up will help me as I move forward into PhD life.
 

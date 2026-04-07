@@ -16,7 +16,7 @@ $$
 \end{equation}
 $$
 
-Moreover, the quantum wavefunction is defined as a Matrix Product State as 
+Moreover, the quantum wavefunction is defined as a Matrix Product State as
 
 $$
 \begin{equation}
@@ -24,7 +24,7 @@ $$
 \end{equation}
 $$
 
-The purpose of the algorithm is to optimize the wavefunction $\psi$ to maximize the probability of "generating" (hence generative qml) the correct data set. The back propagation algorithm is defined by taking the gradient of the MLE of $P(x)$ with respect to a series of tensors $\Theta = A_{i}\dots A_{j}$ for $i < j$. Then, the gradient is defined as 
+The purpose of the algorithm is to optimize the wavefunction $\psi$ to maximize the probability of "generating" (hence generative qml) the correct data set. The back propagation algorithm is defined by taking the gradient of the MLE of $P(x)$ with respect to a series of tensors $\Theta = A_{i}\dots A_{j}$ for $i < j$. Then, the gradient is defined as
 
 $$
 \begin{equation}
@@ -32,4 +32,4 @@ $$
 \end{equation}
 $$
 
-Using the above gradient, once can write a generative QML algorithm on a matrix product states, which was what I did. I also then verified my training algorithm on NIST handwritten data with a simulation of 4 qubits, of which the tensor network was able to learn qualitative features of the data. 
+Using the above gradient, once can write a generative QML algorithm on a matrix product states, which was what I did. I also then verified my training algorithm on NIST handwritten data with a simulation of 4 qubits, of which the tensor network was able to learn qualitative features of the data.
