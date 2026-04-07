@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "research",
-          description: "my research but more descriptive. I will try to keep this page updated.",
+          description: "my research but more descriptive.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -84,7 +84,7 @@ ninja.data = [{
           title: 'Superconducting Qubit Measurement Set-up',
           description: "Built qubit measurement set-up using commerical microwave circuitry and LabVIEW",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/cavity_setup/";
+              window.location.href = "/cavity_setup/";
             },},{id: "projects-generative-tensor-networks-on-holographic-quantum-tensor-networks",
           title: 'Generative Tensor Networks on Holographic Quantum Tensor Networks',
           description: "Implemented Born Machine with Pytorch Backend on Quantum Tensor Networks",
@@ -99,7 +99,7 @@ ninja.data = [{
           title: 'Josephson Junction Arrays',
           description: "Extensively studied dynamics of disordered Josephson Junction Arrays",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/modeling_jjs/";
+              window.location.href = "/modeling_jjs/";
             },},{id: "projects-quantum-annealing-for-radar-optimization",
           title: 'Quantum Annealing for radar optimization',
           description: "Using quantum annealing to solve a time-dependent high dimensional QUBO problem.",
