@@ -4,28 +4,28 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "",
+          title: "Publications",
+          description: "all my papers",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-research",
-          title: "research",
+          title: "Research",
           description: "my research but more descriptive.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-other-stuff",
-          title: "other stuff",
-          description: "",
+          title: "Other Stuff",
+          description: "Stuff I do on the side. There will not be any order to this section.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
@@ -89,7 +89,7 @@ ninja.data = [{
           title: 'Generative Tensor Networks on Holographic Quantum Tensor Networks',
           description: "Implemented Born Machine with Pytorch Backend on Quantum Tensor Networks",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/generative_qml/";
+              window.location.href = "/gen_qml/";
             },},{id: "projects-inverse-superconducting-design-tool",
           title: 'Inverse Superconducting Design Tool',
           description: "Developed a tool that estimates device geometry from experimental data",
