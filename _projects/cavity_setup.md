@@ -2,6 +2,7 @@
 layout: page
 title: Superconducting Qubit Measurement Set-up
 description: Built qubit measurement set-up using commerical microwave circuitry and LabVIEW
+permalink: /cavity_setup/
 img: assets/img/crater.png
 importance: 1
 category: Superconductivity

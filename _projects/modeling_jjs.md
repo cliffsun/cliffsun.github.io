@@ -7,6 +7,7 @@ importance: 1
 category: Superconductivity
 related_publications: false
 poster: /assets/posters/jj_array.pdf
+permalink: /modeling_jjs/
 ---
 
 This project was done at UIUC in the Bezryadin Condensed Matter Lab. This project can be split into two parts. (1) Modeling and (2) Disorder and Symmetry Analysis.
