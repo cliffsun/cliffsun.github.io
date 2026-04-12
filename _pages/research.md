@@ -64,4 +64,5 @@ I also research **quantum algorithms and compilation** at the [Johns Hopkins Uni
 <li> Critical current model of many nanowire SQUID (<a href="https://github.com/cliffsun/Nanowire-Memory-Model">code</a>)</li>
 <li>Inverse design solver for many Josephson Junction Array (<a href="https://github.com/cliffsun/JJ-Model-Fitting">code</a>)</li>
 <li>Technical report submitted to 2025 NASA Human Lander Challenge (<a href="https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Technical-Paper.pdf">link</a>)</li>
+<li>Proposal rendered video submitted to 2025 NASA Human Lander Challenge (<a href="https://www.youtube.com/watch?v=Gxhk1hIIWIo">link</a>)</li>
 </ul>

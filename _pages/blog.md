@@ -4,7 +4,6 @@ permalink: /blog/
 title: Other Stuff
 nav: true
 nav_order: 2
-description: Stuff I do on the side. There will not be any order to this section.
 pagination:
   enabled: true
   collection: posts
@@ -64,3 +63,14 @@ pagination:
 {% endif %}
 
 </div>
+
+<h3>Media Features</h3>
+
+<hr class="mt-3">
+
+<ul>
+<li> Goldwater: <a href="https://news.illinois.edu/four-illinois-students-receive-goldwater-scholarship/">UIUC News</a> and <a href="https://math.illinois.edu/news/2026-04-09/four-illinois-students-receive-goldwater-scholarships">UIUC Math Department</a> </li>
+<li> For NASA Competitions: <a href="https://aerospace.illinois.edu/news/67680">UIUC (2024)</a>, <a href="https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-selects-finalist-teams-for-student-human-lander-challenge/">NASA (2025)</a>, and <a href="https://mechse.illinois.edu/news/stories/NASAchallenge">UIUC (2025)</a> </li>
+<li><a href="https://chicagoquantum.org/news/five-researchers-recognized-poster-awards-eighth-annual-chicago-quantum-summit">Chicago Quantum Exchange Poster Award </a></li>
+<li><a href="https://dailyillini.com/life_and_culture-stories/education-campus-life/2026/01/10/ui-students-and-alumni-reflect-on-published-works/">Featured in Daily Illini for published research</a></li>
+</ul>
