@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "all my papers",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -75,6 +75,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-selected-as-a-2026-astronaut-scholar-only-70-scholars-selected-and-i-get-to-go-to-houston",
           title: 'Selected as a 2026 Astronaut Scholar! Only ~70 scholars selected, and I get...',
+          description: "",
+          section: "News",},{id: "news-symmetry-of-the-critical-current-function-in-superconducting-nanodevices-released-on-arxiv",
+          title: '“Symmetry of the critical current function in superconducting nanodevices” released on arxiv.',
           description: "",
           section: "News",},{id: "projects-superconducting-qubit-measurement-set-up",
           title: 'Superconducting Qubit Measurement Set-up',
