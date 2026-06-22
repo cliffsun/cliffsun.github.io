@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally) Scholar.
+I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally) Scholar.
 
 Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I have [4 papers + 1 filed patent](/publications/) (3 first-author papers) on using 1-D superconductors for classical and quantum logic. My work has bridged superconductors to particle physics, connected diodes to broken space and time symmetries, and solved a 20 year problem in the nanowire community.
 
