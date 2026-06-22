@@ -5,7 +5,7 @@ permalink: /
 # subtitle: currently doing physics @ <a href='#'>uiuc</a> and <a href='#'>jhu apl</a>
 profile:
   align: right
-  image: me.png
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> Fig 1. Cliff Sun </p>
