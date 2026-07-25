@@ -52,14 +52,14 @@ ninja.data = [{
             window.location.href = "/blog/2025/hulc/";
           
         },
-      },{id: "news-started-quantum-machine-learning-internship-at-the-johns-hopkins-applied-physics-lab",
-          title: 'Started quantum machine learning internship at the Johns Hopkins Applied Physics Lab.',
+      },{id: "news-started-research-internship-at-the-johns-hopkins-applied-physics-lab",
+          title: 'Started research internship at the Johns Hopkins Applied Physics Lab.',
           description: "",
-          section: "News",},{id: "news-multiple-nanowire-superconducting-quantum-interference-devices-critical-currents-symmetries-and-vorticity-stability-regions-published-in-iopscience-nano-express",
+          section: "News",},{id: "news-multiple-nanowire-superconducting-quantum-interference-devices-critical-currents-symmetries-and-vorticity-stability-regions-published-in-nano-express",
           title: '“Multiple-nanowire superconducting quantum interference devices: critical currents, symmetries, and vorticity stability regions” published...',
           description: "",
-          section: "News",},{id: "news-perfect-superconducting-diode-and-supercurrent-range-controller-published-in-elsevier-physics-letters-a",
-          title: '“Perfect superconducting diode and supercurrent range controller” published in Elsevier Physics Letters A....',
+          section: "News",},{id: "news-perfect-superconducting-diode-and-supercurrent-range-controller-published-in-physics-letters-a",
+          title: '“Perfect superconducting diode and supercurrent range controller” published in Physics Letters A.',
           description: "",
           section: "News",},{id: "news-awarded-best-undergraduate-research-poster-at-the-chicago-quantum-exchange",
           title: 'Awarded “Best Undergraduate Research Poster” at the Chicago Quantum Exchange',
@@ -73,11 +73,14 @@ ninja.data = [{
           section: "News",},{id: "news-selected-as-a-2026-barry-m-goldwater-scholar-only-400-scholars-selected-making-it-one-of-the-most-prestigious-undergraduate-awards",
           title: 'Selected as a 2026 Barry M. Goldwater Scholar! Only ~400 scholars selected, making...',
           description: "",
-          section: "News",},{id: "news-selected-as-a-2026-astronaut-scholar-only-70-scholars-selected-and-i-get-to-go-to-houston",
-          title: 'Selected as a 2026 Astronaut Scholar! Only ~70 scholars selected, and I get...',
+          section: "News",},{id: "news-selected-as-a-2026-astronaut-scholar-only-70-scholars-selected-every-year",
+          title: 'Selected as a 2026 Astronaut Scholar! Only ~70 scholars selected every year.',
           description: "",
           section: "News",},{id: "news-symmetry-of-the-critical-current-function-in-superconducting-nanodevices-released-on-arxiv",
           title: '“Symmetry of the critical current function in superconducting nanodevices” released on arxiv.',
+          description: "",
+          section: "News",},{id: "news-a-dayem-loop-qubit-based-on-interfering-superconducting-nanowires-link-to-be-updated-has-been-accepted-into-superconductor-science-and-technology-a-flagship-journal",
+          title: 'A Dayem Loop Qubit Based on Interfering Superconducting Nanowires (link to be updated)...',
           description: "",
           section: "News",},{id: "projects-superconducting-qubit-measurement-set-up",
           title: 'Superconducting Qubit Measurement Set-up',
@@ -144,6 +147,11 @@ ninja.data = [{
           description: "Culmination of undergraduate research. Note: title was changed prior to presentation; not reflected in official website",
           section: "Talks",handler: () => {
               window.location.href = "/talks/aps/";
+            },},{id: "talks-superconducting-nanowires-for-digital-and-quantum-logic",
+          title: 'Superconducting Nanowires for Digital and Quantum Logic',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/uiuc_symposium_2026/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
