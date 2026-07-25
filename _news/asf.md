@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as a [2026 Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/)! Only ~70 scholars selected, and I get to go to Houston!
+Selected as a [2026 Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/)! Only ~70 scholars selected every year. 

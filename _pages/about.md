@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 5  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -27,10 +27,10 @@ latest_posts:
 
 I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally).
 
-Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I have [4 papers + 1 filed patent](/publications/) (3 first-author papers) on using 1-D superconductors for classical and quantum logic. My work has bridged superconductors to particle physics, connected diodes to broken space and time symmetries, and solved a 20 year problem in the nanowire community.
+Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I have [4 papers + 1 filed patent](/publications/) (3 first-author papers) on using 1-D superconductors for digital and quantum logic. My work has bridged superconductors to particle physics, connected diodes to broken space and time symmetries, and solved a 20 year problem in the nanowire community.
 
-I also hold a joint research position at the [Johns Hopkins Applied Physics Laboratory](https://www.jhuapl.edu/), where I'm working on [various quantum software problems](/research/). My current interests lie in finding quantum advantages and an efficient quantum circuit scale-up technique. 
+I also hold a joint research position at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), where I'm working on [various quantum software problems](/research/). My current interests lie in developing quantum algorithms and an efficient quantum circuit scale-up technique. 
 
-In the past, I've led a [NASA competition](https://hulc.nianet.org/) team designing a [hardware-aware, fault tolerant cryogenic propellent transfer strategy](https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Technical-Paper.pdf) for the [Artemis Missions](https://www.nasa.gov/humans-in-space/artemis/). We were invited to [present our work](https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Chart-Deck.pdf) to NASA with concepts integrated into the Artemis mission architecture. I also play basketball, listen to music, and watch long youtube videos.
+In the past, I've led a [NASA competition](https://hulc.nianet.org/) team designing a [hardware-aware, fault tolerant cryogenic propellent transfer strategy](https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Technical-Paper.pdf) for the [Artemis Missions](https://www.nasa.gov/humans-in-space/artemis/). We were invited to [present our work](https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Chart-Deck.pdf) to NASA with concepts integrated into the Artemis mission architecture. In my free time, I love learning, music, lifting, and basketball.  
 
 You can reach me at cliffxs2 [at] illinois [dot] edu.
