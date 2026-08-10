@@ -79,8 +79,8 @@ ninja.data = [{
           section: "News",},{id: "news-symmetry-of-the-critical-current-function-in-superconducting-nanodevices-released-on-arxiv",
           title: '“Symmetry of the critical current function in superconducting nanodevices” released on arxiv.',
           description: "",
-          section: "News",},{id: "news-a-dayem-loop-qubit-based-on-interfering-superconducting-nanowires-link-to-be-updated-has-been-accepted-into-superconductor-science-and-technology-a-flagship-journal",
-          title: 'A Dayem Loop Qubit Based on Interfering Superconducting Nanowires (link to be updated)...',
+          section: "News",},{id: "news-a-dayem-loop-qubit-based-on-interfering-superconducting-nanowires-published-in-superconductor-science-and-technology-patent-also-filed",
+          title: 'A Dayem Loop Qubit Based on Interfering Superconducting Nanowires published in Superconductor Science...',
           description: "",
           section: "News",},{id: "projects-superconducting-qubit-measurement-set-up",
           title: 'Superconducting Qubit Measurement Set-up',
@@ -132,6 +132,11 @@ ninja.data = [{
           description: "Intern project presentation. 4/400 interns selected to present. URL not available.",
           section: "Talks",handler: () => {
               window.location.href = "/talks/apl/";
+            },},{id: "talks-simulating-diffusion-advection-via-matrix-product-states",
+          title: 'Simulating Diffusion-Advection via Matrix Product States',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/apl_2026_cfd/";
             },},{id: "talks-multiple-nanowire-superconducting-quantum-interference-devices-symmetries-critical-currents-and-diode-effect",
           title: 'Multiple Nanowire Superconducting Quantum Interference Devices: Symmetries, Critical Currents, and Diode Effect',
           description: "Awarded &quot;Best undergraduate presentation&quot; out of 77 participating",
@@ -152,6 +157,16 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/uiuc_symposium_2026/";
+            },},{id: "talks-quantum-circuits-algorithms-and-sensors",
+          title: 'Quantum Circuits, Algorithms, and Sensors',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/apl_2026_final_intern/";
+            },},{id: "talks-a-machine-learning-architecture-for-scaling-holographic-quantum-circuits",
+          title: 'A Machine Learning Architecture for scaling Holographic Quantum Circuits',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/apl_2026_intern_expo/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
