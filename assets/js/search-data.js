@@ -132,11 +132,6 @@ ninja.data = [{
           description: "Intern project presentation. 4/400 interns selected to present. URL not available.",
           section: "Talks",handler: () => {
               window.location.href = "/talks/apl/";
-            },},{id: "talks-simulating-diffusion-advection-via-matrix-product-states",
-          title: 'Simulating Diffusion-Advection via Matrix Product States',
-          description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/apl_2026_cfd/";
             },},{id: "talks-multiple-nanowire-superconducting-quantum-interference-devices-symmetries-critical-currents-and-diode-effect",
           title: 'Multiple Nanowire Superconducting Quantum Interference Devices: Symmetries, Critical Currents, and Diode Effect',
           description: "Awarded &quot;Best undergraduate presentation&quot; out of 77 participating",
@@ -157,6 +152,11 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/uiuc_symposium_2026/";
+            },},{id: "talks-simulating-diffusion-advection-via-matrix-product-states",
+          title: 'Simulating Diffusion-Advection via Matrix Product States',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/apl_2026_cfd/";
             },},{id: "talks-quantum-circuits-algorithms-and-sensors",
           title: 'Quantum Circuits, Algorithms, and Sensors',
           description: "",
