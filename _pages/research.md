@@ -11,12 +11,7 @@ description: my research but more descriptive.
 
 <hr class="mt-3">
 
-I'm currently researching various quantum problems at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/). Below is a high-level overview of my current work:
-<ul>
-<li>Efficient scaling of Holographic Quantum Circuits</li>
-<li>Quantum tensor network algorithms for problems in Computational Fluid Dynamics (CFD)</li>
-<li>Quantum sensing for Position Estimation</li>
-</ul>
+I'm finishing up my work at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), across tensor networks and machine learning for scaling holographic quantum circuits. I have also begun mentoring students in the [Bezryadin research group](https://research.physics.illinois.edu/bezryadin/) on projects that extend my previous papers. 
 
 ### <strong>previously </strong>
 
@@ -30,9 +25,11 @@ In my sophomore year, I investigated [multiple nanowire superconducting quantum 
 
 I then began my summer research internship at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), studying **holographic quantum tensor networks** with [Dr. Michael Wall](https://scholar.google.com/citations?user=OqBLrGUAAAAJ&hl=en). I developed and implemented a [holographic generative quantum machine learning algorithm]({{ "/gen_qml/" | relative_url }}) (based on [this paper](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023010)), investigated **quantum annealing** for high dimensional QUBO problems, and also **attempted** to use reinforcement learning for quantum compilation purposes. I was selected (4/400 interns) to present my project to APL leadership. I was rehired for my junior year to work on quantum compilation problems. 
 
-In my junior year, I investigated hardware applications of nanowires. I published a [third paper](https://arxiv.org/pdf/2603.17214) on developing a transmon qubit from nanowires. This solved **a 20 year problem** in the nanowire community. We also **filed for a patent** on this concept. As well, a theoretical symmetry breaking prediction I made was experimentally confirmed in a [fourth paper](https://arxiv.org/abs/2606.14051). In parallel, at APL, I was developing a machine learning architecture to scale holographic quantum circuits.
+In my junior year, I investigated hardware applications of nanowires. I published a [third paper](https://arxiv.org/pdf/2603.17214) on developing a transmon qubit from nanowires. This solved **a 20 year problem** in the nanowire community. We also **filed for a patent** on this concept. As well, a theoretical symmetry breaking prediction I made was **experimentally confirmed** in a [fourth paper](https://arxiv.org/abs/2606.14051). In parallel, at APL, I was developing a machine learning architecture to scale holographic quantum circuits.
 
-For this summer, I went back to APL to finish up my projects. See "now" for my current research projects at APL.  
+I then entered by 2nd research internship at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), working on three projects. Firstly, I designed and benchmarked a **hybrid machine learning architecture** used to scale up holographic quantum circuits. A **fifth paper (first-author)** will be released soon on this. Secondly, I developed a **Matrix Product State-based solver** for non-linear diffusion-advection partial differential equations. I solved several important tensor network problems and showed a **classical scaling advantage in time and memory** with this framework. I am preparing a **sixth paper (first-author)** on this work. Thirdly, I wrote and validated a semi-classical cold atom model for **non-inertial state estimation**. An **internal memo (first-author)** will be distributed. Now, I am entering my senior year in my undergraduate career.
+
+I am now recruiting for PhDs!
 
 ### <strong> presentations </strong>
 
