@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-junior-year-reflection",
+        },{id: "post-a-good-and-hard-past-few-months-before-senior-year",
+        
+          title: "A good and hard past few months before senior year",
+        
+        description: "A lot has happened!",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/summer-recap/";
+          
+        },
+      },{id: "post-junior-year-reflection",
         
           title: "Junior Year Reflection",
         
@@ -81,6 +92,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-a-dayem-loop-qubit-based-on-interfering-superconducting-nanowires-published-in-superconductor-science-and-technology-patent-also-filed",
           title: 'A Dayem Loop Qubit Based on Interfering Superconducting Nanowires published in Superconductor Science...',
+          description: "",
+          section: "News",},{id: "news-heading-to-the-annual-astronaut-scholarship-foundation-gala-in-houston-texas-there-i-will-be-presented-my-award",
+          title: 'Heading to the annual Astronaut Scholarship Foundation Gala in Houston, Texas! There, I...',
           description: "",
           section: "News",},{id: "projects-superconducting-qubit-measurement-set-up",
           title: 'Superconducting Qubit Measurement Set-up',
