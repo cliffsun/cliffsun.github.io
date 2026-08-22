@@ -181,6 +181,11 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/apl_2026_intern_expo/";
+            },},{id: "talks-superconducting-nanowires-for-digital-and-quantum-logic",
+          title: 'Superconducting Nanowires for Digital and Quantum Logic',
+          description: "Presented at Astronaut Scholarship Foundation",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/asf/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
