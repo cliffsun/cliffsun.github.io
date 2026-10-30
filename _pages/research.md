@@ -7,6 +7,8 @@ nav_order: 1
 description: my research but more descriptive.
 ---
 
+For a quick summary of my research trajectory, see [here](../assets/pdf/cliff_research_trajectory.pdf).
+
 ### <strong>now </strong>
 
 <hr class="mt-3">

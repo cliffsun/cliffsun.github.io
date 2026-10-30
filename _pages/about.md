@@ -25,13 +25,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**I am recruiting for PhDs starting in Fall 2027.**
+**I am recruiting for PhDs starting in Fall 2027.** Broadly speaking, I'm interested in building a quantum computer by **co-designing** quantum hardware and algorithms.
 
-I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally).
+I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally). 
 
-Broadly speaking, I'm interested in the synergy of quantum hardware and algorithms towards building a quantum computer. I have [4 papers + 1 filed patent](/publications/) (3 first-author papers) on using 1-D superconductors for digital and quantum logic. Some of my work includes proving a rigorous analogy between superconductors and particle physics, connecting diodes to broken parity and time symmetries (with experimental confirmation), and laying the theoretical foundations for the first ever nanowire transmon qubit. 
+One of my strongest skills is my ability to learn. For a quick summary of my research trajectory, see [here](../assets/pdf/cliff_research_trajectory.pdf).
 
-I also hold a joint research position at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), where I've worked on problems concerning quantum circuits, algorithms, and sensors. For more information of my APL research, see [here](/research/). My current interests lie in developing quantum algorithms and an efficient quantum circuit scale-up technique. 
+I have [4 papers + 1 filed patent](/publications/) (3 first-author papers) on using 1-D superconductors for digital and quantum logic. Some of my work includes proving a rigorous analogy between superconductors and particle physics, connecting diodes to broken parity and time symmetries (with experimental confirmation), and laying the theoretical foundations for the first ever nanowire transmon qubit.
+
+I also hold a joint research position at the [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu/), where I've worked on problems concerning quantum circuits, algorithms, and sensors. My current interests lie in developing quantum algorithms and an efficient quantum circuit scale-up technique. 
 
 In the past, I've led a [NASA competition](https://hulc.nianet.org/) team designing a [hardware-aware, fault tolerant cryogenic propellent transfer strategy](https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Technical-Paper.pdf) for the [Artemis Missions](https://www.nasa.gov/humans-in-space/artemis/). We were invited to [present our work](https://hulc.nianet.org/wp-content/uploads/2025-HuLC-University-of-Illinois-Urbana-Champaign-Chart-Deck.pdf) to NASA with concepts integrated into the Artemis mission architecture. In my free time, I love learning, music, lifting, and basketball.  
 
