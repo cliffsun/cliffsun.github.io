@@ -27,9 +27,7 @@ latest_posts:
 
 **I am recruiting for PhDs starting in Fall 2027.** Broadly speaking, I'm interested in building a quantum computer by **co-designing** quantum hardware and algorithms.
 
-I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally). 
-
-One of my strongest skills is my ability to learn. For a quick summary of my research trajectory, see [here](../assets/pdf/cliff_research_trajectory.pdf).
+I study physics, math, and computer science at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am a 2026 [Barry M. Goldwater Scholar](https://goldwaterscholarship.gov/) (~400 selected nationally) and a 2026 [Astronaut Scholar](https://www.astronautscholarship.org/scholars/alumni/) (~70 selected nationally). One of my strongest skills is my ability to quickly learn. For a quick summary of my research trajectory, see [here](../assets/pdf/cliff_research_trajectory.pdf).
 
 I have [4 papers + 1 filed patent](/publications/) (3 first-author papers) on using 1-D superconductors for digital and quantum logic. Some of my work includes proving a rigorous analogy between superconductors and particle physics, connecting diodes to broken parity and time symmetries (with experimental confirmation), and laying the theoretical foundations for the first ever nanowire transmon qubit.
 
